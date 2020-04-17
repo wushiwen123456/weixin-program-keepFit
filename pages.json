@@ -1,0 +1,151 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/Home/home",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationBarBackgroundColor":"#111111",
+				"navigationBarTextStyle":"white",
+				"app-plus":{
+					"scrollIndicator":"none",
+					"bounce":"vertical"//窗口垂直方向回弹效果
+				}
+			}
+		},
+		{
+			"path": "pages/My/my",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationBarBackgroundColor":"#111111",
+				"navigationBarTextStyle":"white",
+				"app-plus":{
+					"scrollIndicator":"none",
+					"bounce":"vertical"//窗口垂直方向回弹效果
+				}
+			}
+		},
+		{
+			"path": "pages/Home/recharge/recharge",
+			"style": {
+				"navigationBarTitleText": "在线充值",
+				"navigationBarBackgroundColor":"#111111",
+				"navigationBarTextStyle":"white",
+				"app-plus":{
+					"scrollIndicator":"none",
+					"bounce":"vertical"//窗口垂直方向回弹效果
+				}
+			}
+		},
+		{
+			"path": "pages/Home/appointment/appointment",
+			"style": {
+				"navigationBarTitleText": "在线预约",
+				"navigationBarBackgroundColor":"#111111",
+				"navigationBarTextStyle":"white",
+				"app-plus":{
+					"scrollIndicator":"none",
+					"bounce":"vertical"//窗口垂直方向回弹效果
+				}
+			}
+		},
+		{
+			"path": "pages/Home/train/train",
+			"style": {
+				"navigationBarTitleText": "培训课程",
+				"navigationBarBackgroundColor":"#111111",
+				"navigationBarTextStyle":"white",
+				"app-plus":{
+					"scrollIndicator":"none",
+					"bounce":"vertical"//窗口垂直方向回弹效果
+				}
+			}
+		},
+		{
+			"path": "pages/Home/venue/venue",
+			"style": {
+				"navigationBarTitleText": "场馆介绍",
+				"navigationBarBackgroundColor":"#111111",
+				"navigationBarTextStyle":"white",
+				"app-plus":{
+					"scrollIndicator":"none",
+					"bounce":"vertical"//窗口垂直方向回弹效果
+				}
+			}
+		},
+		{
+			"path": "pages/Home/succeed/succeed",
+			"style": {
+				"navigationBarTitleText": "充值成功",
+				"navigationBarBackgroundColor":"#111111",
+				"navigationBarTextStyle":"white",
+				"app-plus":{
+					"scrollIndicator":"none",
+					"bounce":"vertical"//窗口垂直方向回弹效果
+				}
+			}
+		},
+		{
+			"path": "pages/Home/venue/venuedetails",
+			"style": {
+				"navigationBarTitleText": "场馆介绍",
+				"navigationBarBackgroundColor":"#111111",
+				"navigationBarTextStyle":"white",
+				"app-plus":{
+					"scrollIndicator":"none",
+					"bounce":"vertical"//窗口垂直方向回弹效果
+				}
+			}
+		},
+		{
+			"path": "pages/My/moneyDetail/moneydetail",
+			"style": {
+				"navigationBarTitleText": "消费明细",
+				"navigationBarBackgroundColor":"#111111",
+				"navigationBarTextStyle":"white",
+				"disableScroll": true,
+				"app-plus":{
+					"scrollIndicator":"none",
+					"bounce":"vertical"//窗口垂直方向回弹效果
+				}
+			}
+		},
+		{
+			"path": "pages/My/appointmentDetail/appointmentdetail",
+			"style": {
+				"navigationBarTitleText": "预约记录",
+				"navigationBarBackgroundColor":"#111111",
+				"navigationBarTextStyle":"white",
+				"app-plus":{
+					"scrollIndicator":"none",
+					"bounce":"vertical"//窗口垂直方向回弹效果
+				}
+			}
+		}
+		
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#FFFFFF",
+		"backgroundColor":"#121212",
+		"selectedColor": "#F7CF38",
+		"borderStyle": "black",
+		"fontSize":"12px",
+		"list": [{
+				"pagePath": "pages/Home/home",
+				"text": "首页",
+				"iconPath": "static/bottoma.png",
+				"selectedIconPath": "static/bottomb.png"
+			},{
+				"pagePath": "pages/My/my",
+				"text": "我的",
+				"iconPath": "static/bottomc.png",
+				"selectedIconPath": "static/bottomd.png"
+			}
+		]
+	}
+}

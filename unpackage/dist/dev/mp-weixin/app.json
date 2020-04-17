@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/Home/home",
+    "pages/My/my",
+    "pages/Home/recharge/recharge",
+    "pages/Home/appointment/appointment",
+    "pages/Home/train/train",
+    "pages/Home/venue/venue",
+    "pages/Home/succeed/succeed",
+    "pages/Home/venue/venuedetails",
+    "pages/My/moneyDetail/moneydetail",
+    "pages/My/appointmentDetail/appointmentdetail"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#FFFFFF",
+    "backgroundColor": "#121212",
+    "selectedColor": "#F7CF38",
+    "borderStyle": "black",
+    "fontSize": "12px",
+    "list": [
+      {
+        "pagePath": "pages/Home/home",
+        "text": "首页",
+        "iconPath": "static/bottoma.png",
+        "selectedIconPath": "static/bottomb.png"
+      },
+      {
+        "pagePath": "pages/My/my",
+        "text": "我的",
+        "iconPath": "static/bottomc.png",
+        "selectedIconPath": "static/bottomd.png"
+      }
+    ]
+  },
+  "permission": {},
+  "uniStatistics": {
+    "enable": true
+  },
+  "usingComponents": {
+    "authorize": "/components/Authorize/Authorize",
+    "x-modal": "/components/x-modal/x-modal"
+  },
+  "sitemapLocation": "sitemap61.json"
+}

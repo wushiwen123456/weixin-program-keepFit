@@ -1,0 +1,36 @@
+{
+	"description": "项目配置文件。",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"minified": true,
+		"es6": false,
+		"postcss": false
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.9.2",
+	"appid": "wxf13f009fc7910c0b",
+	"projectname": "健身",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": []
+		}
+	}
+}

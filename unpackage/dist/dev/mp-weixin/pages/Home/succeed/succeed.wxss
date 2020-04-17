@@ -1,0 +1,18 @@
+
+.succeed-image{
+	width: 112rpx;
+	height: 112rpx;
+	margin-bottom: 80rpx;
+}
+.button-succeed{
+	width:360rpx;
+	height:88rpx;
+	line-height: 88rpx;
+	text-align: center;
+	font-weight: bold;
+	background:rgba(252,214,25,1);
+	border-radius:44rpx;
+	font-size:32rpx;
+	color: #000000;
+}
+

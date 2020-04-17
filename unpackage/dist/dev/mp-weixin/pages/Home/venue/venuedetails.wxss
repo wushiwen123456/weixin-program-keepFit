@@ -1,0 +1,17 @@
+
+.venue-image{
+	width: 100%;
+}
+.train-center-all{
+	width:12rpx;
+	height:28rpx;
+	background:-webkit-linear-gradient(bottom,rgba(214,141,9,1),rgba(252,217,63,1));
+	background:linear-gradient(0deg,rgba(214,141,9,1),rgba(252,217,63,1));
+	border:0px solid rgba(82,82,80,1);
+	border-radius:6rpx;
+}
+.venue-image-time{
+	width: 40rpx;
+	height: 40rpx;
+}
+

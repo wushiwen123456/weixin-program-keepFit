@@ -1,0 +1,83 @@
+.body.data-v-6836a8a0 {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 0;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 9999;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.body .shou_box.data-v-6836a8a0 {
+  font-size: 28rpx;
+  color: #333333;
+  width: 500rpx;
+  height: 300rpx;
+  background: #FFFFFF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.body .shou_box .shou_logo.data-v-6836a8a0 {
+  width: 120rpx;
+  height: 120rpx;
+  position: relative;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  border-radius: 10px;
+}
+.body .shou_box .shou_text.data-v-6836a8a0 {
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: center;
+  font-family: 'SimHei';
+}
+.body .shou_box .shou_text .text_title.data-v-6836a8a0 {
+  padding: 15rpx 0;
+}
+.body .shou_box .shou_text .text_main.data-v-6836a8a0 {
+  font-size: 24rpx;
+  color: #666666;
+}
+.body .shou_box .shou_footer.data-v-6836a8a0 {
+  height: 80rpx;
+  width: 100%;
+  border: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  background: #3c7a03;
+  color: #FFFFFF;
+  border-radius: 0;
+  font-size: 28rpx;
+}
+

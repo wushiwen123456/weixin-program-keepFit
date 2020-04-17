@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "场馆介绍",
+  "navigationBarBackgroundColor": "#111111",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "s-pull-scroll": "/components/s-pull-scroll/index"
+  }
+}

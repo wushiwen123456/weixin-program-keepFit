@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "消费明细",
+  "navigationBarBackgroundColor": "#111111",
+  "navigationBarTextStyle": "white",
+  "disableScroll": true,
+  "usingComponents": {
+    "s-pull-scroll": "/components/s-pull-scroll/index"
+  }
+}
