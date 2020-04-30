@@ -22,7 +22,7 @@
 					<view class="text-white text-xs">可用金额</view>
 				</view>
 				<view class="flex flex-direction align-center justify-center">
-					<view class="text-three-all">{{avaliable}}</view>
+					<view class="text-three-all">{{avaliable || 0}}</view>
 					<view class="text-white text-xs">已用</view>
 				</view>
 			</view>
